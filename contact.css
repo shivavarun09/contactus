@@ -1,0 +1,37 @@
+.sbutton,
+      .rbutton {
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: box-shadow 0.25s;
+      }
+      .rbutton {
+        background-color: red;
+      }
+      .sbutton:hover,
+      .rbutton:hover {
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+      }
+      .sbutton:active{
+        background-color: white;
+        color: blue;
+      }
+      .rbutton:active{
+        color: red;
+        background-color: white;
+      }
+
+      .btndiv {
+        margin: 10px 10px;
+      }
+      .main {
+        display: flexbox;
+        text-align: center;
+      }
+      .contactimg {
+        width: 250px;
+        margin-bottom: 0px;
+      }
